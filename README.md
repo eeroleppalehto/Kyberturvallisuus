@@ -1,0 +1,2 @@
+# Kyberturvallisuus
+Kyberturvallisuuden dokumentaatio ja harjoitukset
