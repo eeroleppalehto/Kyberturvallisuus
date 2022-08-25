@@ -1,0 +1,27 @@
+# Hallinta ja suojautuminen
+
+## Virtuaaliympäristö
+
+Käynnistystiedosto luodaan komennolla `COPY CON AUTOEXEC.BAT`
+
+Käyttajien lisääminen CSV-tiedostosta tehdään seuraavasti:
+
+```powershell
+$credentials = Get-Credentials
+$File = "C:\Users\EL\Documents\Käyttäjät.csv"
+New-Aduser
+```
+
+| Asetus | Arvo |
+|---|---|
+Asennushakemisto | C:\ProgramFiles\HuuhaaSofta
+Käyttäjätunnus | MattiMeikäläinen
+Salasana | Q2werty
+
+## Ohjelmistot
+Koneeseen on asennettu seuraavat sovellukset:
+* ShareX [lataus linkki](https://github.com/ShareX/ShareX/releases/tag/v14.1.0)
+
+![ShareX_KCYuJ1MT1T](https://user-images.githubusercontent.com/111079111/185346635-c365f54a-d20d-467e-87a3-b926b43bc1b9.png)
+
+> :warning: Sovelluksen asennus on syytä tehdä pääkäyttäjänä, koska muuten xxx ei toimi oikein
