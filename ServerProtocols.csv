@@ -1,0 +1,4 @@
+Protocol Name,Status
+Shared Memory,Enabled
+Named Pipes,Enabled
+TCP/IP,Enabled

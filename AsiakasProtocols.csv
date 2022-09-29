@@ -1,0 +1,4 @@
+Name,Order,Enabled
+Shared Memory,1,Enabled
+TCP/IP,2,Enabled
+Named Pipes,3,Enabled
